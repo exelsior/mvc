@@ -1,0 +1,29 @@
+﻿@model IEnumerable<MVC.Models.Book>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div>
+    <h3>Распродажа книг</h3>
+    <table>
+        <tr class="header">
+            <td><p>Название книги</p></td>
+            <td><p>Автор</p></td>
+            <td><p>Цена</p></td>
+            <td></td>
+        </tr>
+        @foreach (MVC.Models.Book b in Model)
+        {
+            <tr>
+                <td><p>@b.Name</p></td>
+                <td><p>@b.Author</p></td>
+                <td><p>@b.Price</p></td>
+                <td><p><a href="/Home/Buy/@b.Id">Купить</a></p></td>
+                <td><p><a href="/MyNewFromInterface/Index">check</a></p></td>
+                <td><p><a href="/Home/Square">Square</a></p></td>
+            </tr>
+        }
+    </table>
+    <div><p><a href ="/Donut/Index">Диаграмма</a><p>
+        
+        </div>
+</div>
