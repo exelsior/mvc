@@ -52,3 +52,67 @@ path.transition()
         return arc(interpolate(t));
     };
 });
+
+
+var restOfTheData = function () {
+    var text = svg.selectAll('text')
+        .data(pie(dataset))
+        .enter()
+        .append("text")
+        .transition()
+        .duration(200)
+        .attr("transform", function (d) {
+            return "translate(" + arc.centroid(d) + ")";
+        })
+        .attr("dy", ".4em")
+        .attr("text-anchor", "middle")
+        .text(function (d) {
+            return d.data.percent + "%";
+        })
+        .style({
+            fill: '#fff',
+            'font-size': '10px'
+        });
+
+    var legendRectSize = 20;
+    var legendSpacing = 7;
+    var legendHeight = legendRectSize + legendSpacing;
+
+
+    var legend = svg.selectAll('.legend')
+        .data(color.domain())
+        .enter()
+        .append('g')
+        .attr({
+            class: 'legend',
+            transform: function (d, i) {
+                //Just a calculation for x & y position
+                return 'translate(-35,' + ((i * legendHeight) - 65) + ')';
+            }
+        });
+    legend.append('rect')
+        .attr({
+            width: legendRectSize,
+            height: legendRectSize,
+            rx: 20,
+            ry: 20
+        })
+        .style({
+            fill: color,
+            stroke: color
+        });
+
+    legend.append('text')
+        .attr({
+            x: 30,
+            y: 15
+        })
+        .text(function (d) {
+            return d;
+        }).style({
+            fill: '#929DAF',
+            'font-size': '14px'
+        });
+};
+
+setTimeout(restOfTheData, 1000);
