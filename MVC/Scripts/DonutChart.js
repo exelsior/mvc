@@ -3,10 +3,10 @@ $.getJSON("/Donut/GetDataset", function (response) {
     if (response != null) {
         //alert(response);
         dataset = JSON.parse(response);
-        alert(JSON.parse(response));
+        console.log(JSON.parse(response));
+        //alert(JSON.parse(response));
+        //$(".header").append(response);
         //alert(response);
-    }
-});
 
 //var dataset = [
 //        { "name": "IE", "percent": 39.10 },
@@ -50,7 +50,6 @@ var path = svg.selectAll('path')
         .attr({
             d: arc,
             fill: function (d, i) {
-                alert(d.data.name);
                 return color(d.data.name);
             }
         });
@@ -127,3 +126,6 @@ var restOfTheData = function () {
 };
 
 setTimeout(restOfTheData, 1000);
+
+    }
+});

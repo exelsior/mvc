@@ -112,3 +112,33 @@ D:\Visual studio 2013 projects\MVC\mvc\MVC\bin\Antlr3.Runtime.pdb
 D:\Visual studio 2013 projects\MVC\mvc\MVC\obj\Debug\MVC.dll
 D:\Visual studio 2013 projects\MVC\mvc\MVC\obj\Debug\MVC.pdb
 D:\Visual studio 2013 projects\MVC\mvc\MVC\obj\Debug\MVC.csprojResolveAssemblyReference.cache
+D:\GitDevelopment\MVC\mvc\MVC\bin\MVC.dll.config
+D:\GitDevelopment\MVC\mvc\MVC\bin\MVC.dll
+D:\GitDevelopment\MVC\mvc\MVC\bin\MVC.pdb
+D:\GitDevelopment\MVC\mvc\MVC\bin\Antlr3.Runtime.dll
+D:\GitDevelopment\MVC\mvc\MVC\bin\EntityFramework.dll
+D:\GitDevelopment\MVC\mvc\MVC\bin\EntityFramework.SqlServer.dll
+D:\GitDevelopment\MVC\mvc\MVC\bin\Microsoft.Web.Infrastructure.dll
+D:\GitDevelopment\MVC\mvc\MVC\bin\Newtonsoft.Json.dll
+D:\GitDevelopment\MVC\mvc\MVC\bin\System.Web.Helpers.dll
+D:\GitDevelopment\MVC\mvc\MVC\bin\System.Web.Mvc.dll
+D:\GitDevelopment\MVC\mvc\MVC\bin\System.Web.Optimization.dll
+D:\GitDevelopment\MVC\mvc\MVC\bin\System.Web.Razor.dll
+D:\GitDevelopment\MVC\mvc\MVC\bin\System.Web.WebPages.Deployment.dll
+D:\GitDevelopment\MVC\mvc\MVC\bin\System.Web.WebPages.dll
+D:\GitDevelopment\MVC\mvc\MVC\bin\System.Web.WebPages.Razor.dll
+D:\GitDevelopment\MVC\mvc\MVC\bin\WebGrease.dll
+D:\GitDevelopment\MVC\mvc\MVC\bin\EntityFramework.xml
+D:\GitDevelopment\MVC\mvc\MVC\bin\EntityFramework.SqlServer.xml
+D:\GitDevelopment\MVC\mvc\MVC\bin\Newtonsoft.Json.xml
+D:\GitDevelopment\MVC\mvc\MVC\bin\System.Web.Razor.xml
+D:\GitDevelopment\MVC\mvc\MVC\bin\System.Web.Helpers.xml
+D:\GitDevelopment\MVC\mvc\MVC\bin\System.Web.Mvc.xml
+D:\GitDevelopment\MVC\mvc\MVC\bin\System.Web.Optimization.xml
+D:\GitDevelopment\MVC\mvc\MVC\bin\System.Web.WebPages.xml
+D:\GitDevelopment\MVC\mvc\MVC\bin\System.Web.WebPages.Deployment.xml
+D:\GitDevelopment\MVC\mvc\MVC\bin\System.Web.WebPages.Razor.xml
+D:\GitDevelopment\MVC\mvc\MVC\bin\Antlr3.Runtime.pdb
+D:\GitDevelopment\MVC\mvc\MVC\obj\Debug\MVC.csprojResolveAssemblyReference.cache
+D:\GitDevelopment\MVC\mvc\MVC\obj\Debug\MVC.dll
+D:\GitDevelopment\MVC\mvc\MVC\obj\Debug\MVC.pdb
