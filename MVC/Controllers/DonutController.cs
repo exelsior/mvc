@@ -16,7 +16,7 @@ namespace MVC.Controllers
             return View();
         }
 
-    [HttpGet]
+    [HttpPost]
         public ActionResult GetDataset()
         {
 
@@ -36,7 +36,7 @@ namespace MVC.Controllers
 
         //JsonConvert.SerializeObject(dataset);
 
-            return Json(JsonConvert.SerializeObject(dataset), JsonRequestBehavior.AllowGet);
+            return Json(dataset);
 
         /*var dataset = [
         { name: 'IE', percent: 39.10 },
