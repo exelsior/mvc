@@ -6,9 +6,10 @@
     },
     _pieChart : function()
     {
+        var that = this;
         $.post("/Donut/GetDataset", { 'contentType': 'application/json' }, function (response) {
             if (response != null) {
-                dataset = response;
+                var dataset = response;
 
                 var pie = d3.layout.pie()
                         .value(function (d) { return d.percent })
@@ -25,8 +26,7 @@
                 var arc = d3.svg.arc()
                         .outerRadius(outerRadius)
                         .innerRadius(innerRadius);
-
-                var svg = d3.select(this)
+                var svg = d3.select(that.element[0])
                         .append("svg")
                         .attr({
                             width: w,
